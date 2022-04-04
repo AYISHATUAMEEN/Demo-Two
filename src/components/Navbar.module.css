@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans+Condensed:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 13px;
+  }
+
+body {
+    padding: 40px;
+    background-color: #b18c6f;
+  }
+  
+header{
+    height: 100vh;
+    width: 90vw;
+    /* border: 1px solid black; */
+    margin: 3rem 0 0 2rem;
+    background-color: rgb(79, 98, 157);
+  }
+  
+nav{
+    height: 5.7rem;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+.logo {
+    height: 5.5rem;
+    width: 20%;
+    /* border: 1px solid black; */
+    margin: 0 0 0 6rem;
+    font-size: 20px;
+    padding: 1rem 0 0 2rem;
+  }
+  
+.contact {
+    height: 5.5rem;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0 8rem 0 0;
+  }
+  
+li > span {
+    display: block;
+    color: #b18c6f;
+    font-family: "Caveat", cursive;
+    font-size: 15px;
+  }
+  
+li > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: "Fira Sans Condensed", sans-serif;
+    padding-bottom: 40px;
+  }
+  
+.contact > a {
+    color: #b18c6f;
+  }
+  
+.header_image {
+    height: 90vh;
+    width: 100%;
+    background-image: url("/public/images/background.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  

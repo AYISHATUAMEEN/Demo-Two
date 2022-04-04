@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans+Condensed:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+.s_three {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 0 0 0 2rem; */
+    background-color: cornsilk;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 4rem 0 0 0;
+  }
+  
+  .text_sect > h1 {
+    /* height: 20vh; */
+    text-align: center;
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    font-weight: lighter;
+  }
+  
+  .image_sect {
+    height: 70vh;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 6rem 0 0 7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image_sect > .jpg {
+    height: 70vh;
+    width: 28vw;
+    /* border: 1px solid black; */
+    margin: -4rem 3rem 0 0rem;
+  }
+  
+  .image_sect > .imj_1 {
+    background-image: url("/public/images/mae-mu-BxsGyQwjwaw-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 25rem;
+  }
+  
+  .image_sect > .imj_2 {
+    background-image: url("/public/images/mae-mu-f4Mco9WzRPM-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 25rem;
+  }
+  
+  .image_sect > .imj_3 {
+    background-image: url("/public/images/may-lawrence-2mAZGvlgWlI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 25rem;
+  }
+  

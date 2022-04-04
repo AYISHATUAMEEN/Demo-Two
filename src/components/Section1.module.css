@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans+Condensed:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+
+.s_one {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 8px 0 0 26px; */
+    background-color: white;
+    padding: 3rem 0 0 0;
+  }
+  
+  .s_one > h1 {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    color: rgb(115, 112, 112);
+    margin: 0 0 1rem 0;
+  }
+  
+  hr {
+    width: 6rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    border: none;
+    background-color: #b18c6f;
+  }
+  
+  .menu_image {
+    height: 50vh;
+    width: 90vw;
+    /* border: 1px solid black; */
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 0 2rem 0 2rem; */
+  }
+  
+  .menu_card {
+    height: 50vh;
+    width: 20vw;
+    /* border: 1px solid black; */
+    /* margin: 0 1rem 0 0; */
+  }
+  
+  .img {
+    height: 23rem;
+    width: 23rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .img_1 {
+    background-image: url("/public/images/joshua-ryder-y4K7Ydp2z3Y-unsplash.jpg");
+  }
+  
+  .img_2 {
+    background-image: url("/public/images/pics2.jpg");
+  }
+  
+  .img_3 {
+    background-image: url("/public/images/pics3.jpg");
+  }
+  
+  .img > h3 {
+    transform-origin: 0 0;
+    transform: rotate(-15deg);
+    /* width: 10rem; */
+    margin: 4rem 0 0 -1rem;
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 550;
+    color: #b18c6f;
+    font-family: "Caveat", cursive;
+  }
+  
